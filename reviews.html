@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/review.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="reviewsstyle.css"></link>
+
+    <title>Reviews</title>
+</head>
+<body>
+    <div class="home">
+        <ul id="secp">
+            <li><a href="home.html">home</a></li>
+            <li><a href="schedule.html">schedule</a></li>
+            <div class="wn">
+            <li>TRASHTRACKR</li>
+            </div>
+            <li><a href="segregation.html">segregation</a></li>
+            <li><a href="reviews.html">reviews</a></li>
+        </ul>
+    </div>
+
+<div class="container">
+    <h2>Reviews and Suggestion Section</h2>
+
+    <form id="commentForm">
+        <label for="name">Name:</label>
+
+        <input type="text" id="name" name="name" required placeholder="Enter your name....">
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+
+        <button type="button" onclick="submitComment()">Submit Comment</button>
+    </form>
+
+    <ul class="comments" id="commentsList">
+        <!-- Comments will be added dynamically here -->
+    </ul>
+</div>
+
+<script>
+    function submitComment() {
+        var name = document.getElementById('name').value;
+        var comment = document.getElementById('comment').value;
+
+        if (name && comment) {
+            var commentList = document.getElementById('commentsList');
+            var li = document.createElement('li');
+            li.classList.add('comment');
+            li.innerHTML = '<strong>' + name + ':</strong> ' + comment;
+            commentList.appendChild(li);
+
+            document.getElementById('name').value = '';
+            document.getElementById('comment').value = '';
+        } else {
+            alert('Please enter both name and comment.');
+        }
+    }
+</script>
+
+</body>
+</html>

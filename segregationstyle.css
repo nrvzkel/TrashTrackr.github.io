@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 120% 300%;
+    background-image: url(images/2.jpg);
+    
+}
+
+.home ul{
+    list-style: none;
+    background: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home li{
+    display: inline-block;            
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    width: max-content;
+    padding: .90em 2.85em;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    display: inline-block;
+    font-family: cursive;
+    text-shadow: 0 6.2px 4.7px;
+    
+}
+.home a:hover{
+    background: white;
+    color: black;
+}
+.wn{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.content h1{
+position: absolute;
+top: 32%;
+left: 5%;
+color: white;
+font-size: 52px;
+font-family: monospace;
+}
+
+.intro {
+background-color: aquamarine;
+font-family: system-ui;
+padding: 1px 10px;
+opacity: 0.8;
+}
+.container{
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  
+}
+.rec{
+    height: 20em;
+    width: 20em;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+   
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.content h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 5px 10px;
+}
+.container:hover .overlay{
+    opacity: 0.8;
+}
+.containerh{
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+  
+}
+.haz{
+    height: 16em;
+    width: 16em;
+}
+.overlayh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+   
+}
+.contenth{
+    position: absolute;
+    top: 41%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contenth h1{
+    color: red;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 5px 10px;
+}
+.containerh:hover .overlayh{
+    opacity: 0.8;
+}
+.containerb{
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    top: 69%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+  
+}
+.bio{
+    height: 20em;
+    width: 19em;
+}
+.overlayb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+   
+}
+.contentb{
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contentb h1{
+    color: green;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 5px 10px;
+}
+.containerb:hover .overlayb{
+    opacity: 0.8;
+}
+.containern{
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    top: 74%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+  
+}
+.non{
+    height: 18em;
+    width: 18em;
+}
+.overlayn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    cursor: pointer;
+   
+}
+.contentn{
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contentn h1{
+    color: rgb(179, 146, 76);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 5px 10px;
+}
+.containern:hover .overlayn{
+    opacity: 0.8;
+}
+

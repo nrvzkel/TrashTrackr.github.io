@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recyclabe</title>
+    <!-- Internal CSS for positioning and design of the recyclable page-->
+   <style>
+    
+    body{
+        padding: 0;
+        margin: 0;
+        background-size: 100em;
+    }
+    .prop{
+        padding: 1em;
+        background-color: rgb(212, 247, 205);
+        width: 34.8em;
+        height:12em;
+        opacity: 0.8;
+    }
+    .rec{
+        position: absolute;
+        left: 54.9%;
+        top: 0;
+        padding: 1em;
+        background-color: rgb(212, 247, 205);
+        width: 36.5em;
+        height:12em;
+        opacity: 0.8;
+    }
+    .proper{
+        position: absolute;
+        height: 22em;
+        width: 30em;
+        top: 35%;
+        left: 8%;
+        opacity: 0.95;
+    }
+    .recycle{
+        position: absolute;
+        height: 22em;
+        width: 30em;
+        top: 35%;
+        left: 55%;
+        opacity: 0.95;
+    }
+    button{
+        position: absolute;
+        top: 92%;
+        left: 43.4%;
+        width: 10em;
+        height: 2.8em;
+        font-size: 1em;
+        background-color: rgb(50, 245, 180);
+        opacity: 0.8;
+        border-radius: 25px
+        
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+    }
+    .trashtrackr{
+        position: absolute;
+        left: 40.2%;
+        top: 1%;
+        width: 15em;
+        height: 15em;
+    }
+   </style>
+</head>
+<body background="images/2.jpg">
+      <!-- whole page structure and information-->
+    <div class="prop">
+    <h1 style="font-size: 2.5em;">Proper Waste Disposal</h1>
+    <p style="font-size: 1.5em;">Here is an example of a proper waste disposal, tips and things that should be done in order to have a proper waste disposal</p>
+    </div>
+    <img src="images/trashtrackr.png" alt="" class="trashtrackr">
+    <div class="rec">
+    <h1 style="font-size: 2.5em;">Recyclabe Materials</h1>
+    <p style="font-size: 1.5em;">Play the video below to see the recyclabe materials and the things that you could do with them</p>
+    </div>
+    <hr style="height: .4em; width: 80em; background-color: rgb(212, 247, 205); opacity: 0.8;">
+    <hr style="height: .4em; width: 75em; background-color: rgb(212, 247, 205); opacity: 0.8;">
+    <video class="proper" controls src="videos/Proper Waste Disposal According to the Properties of Each Material.mp4"></video>
+    <video class="recycle" controls src="videos/15 Recyclable Household Items & Materials.mp4"></video>
+    <a href="segregation.html" target="_self">
+    <button>Go Back</button>
+    </a>
+</body>
+</html>

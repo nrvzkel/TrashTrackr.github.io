@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazardous</title>
+    <!-- Internal CSS for positioning and design of the hazardous page page-->
+   <style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-size: 100em;
+    }
+    .prop{
+        padding: 1em;
+        background-color: rgb(212, 247, 205);
+        width: 34.8em;
+        height:12em;
+        opacity: 0.8;
+    }
+    .rec{
+        position: absolute;
+        left: 54.9%;
+        top: 0;
+        padding: 1em;
+        background-color: rgb(212, 247, 205);
+        width: 36.5em;
+        height:12em;
+        opacity: 0.8;
+    }
+    .proper{
+        position: absolute;
+        height: 22em;
+        width: 30em;
+        top: 35%;
+        left: 8%;
+        opacity: 0.95;
+    }
+    .recycle{
+        position: absolute;
+        height: 22em;
+        width: 30em;
+        top: 35%;
+        left: 55%;
+        opacity: 0.95;
+    }
+    button{
+        position: absolute;
+        top: 92%;
+        left: 43.4%;
+        width: 10em;
+        height: 2.8em;
+        font-size: 1em;
+        background-color: rgb(50, 245, 180);
+        border-radius: 25px;
+        opacity: 0.8;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+    }
+    .trashtrackr{
+        position: absolute;
+        left: 40.2%;
+        top: 1%;
+        width: 15em;
+        height: 15em;
+    }
+   </style>
+</head>
+<body background="images/2.jpg">
+     <!-- whole page structure and information-->
+    <div class="prop">
+    <h1 style="font-size: 2.5em;">Hazardous waste Classification</h1>
+    <p style="font-size: 1.5em;">Play the video below to show the types of hazardous waste and it's Classification</p>
+    </div>
+    <img src="images/trashtrackr.png" alt="" class="trashtrackr">
+    <div class="rec">
+    <h1 style="font-size: 2.5em;">Safetly handle of hazardous waste</h1>
+    <p style="font-size: 1.5em;">Play the video below to show how to hande those hazardous waste or materials</p>
+    </div>
+    <hr style="height: .4em; width: 80em; background-color: rgb(212, 247, 205);">
+    <hr style="height: .4em; width: 75em; background-color: rgb(212, 247, 205);">
+    <video class="proper" controls src="videos/Hazardous Waste 4 Types of Hazardous Waste Four Classifications of Hazardous Waste.mp4"></video>
+    <video class="recycle" controls src="videos/HAZARDOUS WASTE HANDLING SAFETY.mp4"></video>
+    <a href="segregation.html" target="_self">
+    <button>Go Back</button>
+    </a>
+</body>
+</html>

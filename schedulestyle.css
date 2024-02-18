@@ -1,0 +1,852 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100% 1100%;      
+    background-image: url(images/2.jpg);    
+}
+
+.home ul{
+    list-style: none;
+    background: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home li{
+    display: inline-block;            
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    width: max-content;
+    padding: .90em 2.85em;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    display: inline-block;
+    font-family: cursive;
+    text-shadow: 0 6.2px 4.7px
+    
+}
+.home a:hover{
+    background: white;
+    color: black;
+}
+.wn{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.map{
+position: absolute;
+top: 20%;
+left: 45%;
+width: 50%;
+height: 70%;
+opacity: 0.95;
+filter: brightness(25%);
+
+}
+.sched{
+position: absolute;
+top: 20%;
+left: 2%;
+font-size: 16px;
+color: white;
+text-transform: uppercase;
+background-color: rgb(27, 27, 27);
+padding: 0 1%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+opacity: 0.85;
+}
+
+.colorcode{
+    position: absolute;
+    top: 55%;
+    color: white;
+    left: 5%;
+    padding: .80em;
+    border-radius: 1em;
+    opacity: 0.7;
+    background: url(images/15.png);
+    background-size: cover;
+}
+.truck{
+    margin: 1em;
+    background: black;
+    opacity: 0.8;
+    border-radius: 1.5em;
+    padding: 2em;
+    height: 10em;
+    text-align: center;
+    font-size: .85em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.blue-color {
+    color:blue;
+}
+.red-color {
+    color:red;
+}
+.green-color {
+    color:green;
+}
+ul.hov li{
+    position: absolute;
+    top: 56%;
+    left: 58%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul.hov li:hover{
+    background: green;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px green;
+}
+
+ ul.hov li .can{
+    position: absolute;
+    bottom: 25px;
+    width: 350px;
+    height: 15em;
+    padding: 15px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 2em;
+    transition: 0.4s;
+    z-index: 10;
+    background-image: url(images/download.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 0 5px 10px;
+    
+} 
+form{
+    margin: 1em;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 2em;
+    height: 10em;
+    text-align: center;
+    font-size: .85em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.hov li:hover .can{
+visibility: visible;
+opacity: 1;
+}   
+
+
+ul.mabhv li{
+    position: absolute;
+    top: 80%;
+    left: 48%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.mabhv li:hover{
+    background: red;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px red;
+}
+
+ ul.mabhv li .mab{
+    position: absolute;
+    bottom: 25px;
+    width: 20em;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+    background-image: url(images/download.jpg);
+    background-size: cover;
+    color: white;
+} 
+.formmab{
+    margin: 1em;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 2em;
+    height: 10em;
+    text-align: center;
+    font-size: .85em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.mabhv li:hover .mab{
+visibility: visible;
+opacity: 1;
+}   
+ul.horhv li{
+    position: absolute;
+    top: 67%;
+    left: 58%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul.horhv li:hover{
+    background: blue;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px  blue;
+}
+
+ ul.horhv li .hor{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+    background-image: url(images/download.jpg);
+    background-size: cover;
+    color: white;
+} 
+.formhor{
+    margin: 1em;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 2em;
+    height: 10em;
+    text-align: center;
+    font-size: .85em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.horhv li:hover .hor{
+visibility: visible;
+opacity: 1;
+}   
+
+
+ul.bunhv li{
+    position: absolute;
+    top: 74%;
+    left: 58%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.bunhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.bunhv li .bun{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.bunhv li:hover .bun{
+visibility: visible;
+opacity: 1;
+}   
+
+ul.laghv li{
+    position: absolute;
+    top: 64%;
+    left: 63%;
+    list-style: none;
+    width: 16px;
+    height: 16px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.laghv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.laghv li .lag{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.laghv li:hover .lag{
+visibility: visible;
+opacity: 1;
+}   
+
+ul.burhv li{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.burhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.burhv li .bur{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.burhv li:hover .bur{
+visibility: visible;
+opacity: 1;
+}   
+ul.sirhv li{
+    position: absolute;
+    top: 49%;
+    left: 66%;
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.sirhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.sirhv li .sir{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.sirhv li:hover .sir{
+visibility: visible;
+opacity: 1;
+}   
+
+ul.majhv li{
+    position: absolute;
+    top: 53%;
+    left: 66%;
+    list-style: none;
+    width: 18px;
+    height: 18px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.majhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.majhv li .maj{
+    position: absolute;
+    bottom: 25px;
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.majhv li:hover .maj{
+visibility: visible;
+opacity: 1;
+}   
+
+ul.halhv li{
+    position: absolute;
+    top: 46.5%;
+    left: 84.5%;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.halhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.halhv li .hal{
+    position: absolute;
+    bottom: 25px;
+    width: 200px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.halhv li:hover .hal{
+visibility: visible;
+opacity: 1;
+}
+ul.linghv li{
+    position: absolute;
+    top: 37%;
+    left: 88%;
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.linghv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.linghv li .ling{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.linghv li:hover .ling{
+visibility: visible;
+opacity: 1;
+}
+ul.makhv li{
+    position: absolute;
+    top: 71%;
+    left: 78%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.makhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.makhv li .mak{
+    position: absolute;
+    bottom: 25px;
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.makhv li:hover .mak{
+visibility: visible;
+opacity: 1;
+}
+ul.sanhv li{
+    position: absolute;
+    top: 37%;
+    left: 86%;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.sanhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.sanhv li .san{
+    position: absolute;
+    bottom: 25px;
+    width: 300px;
+    right: 15px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.sanhv li:hover .san{
+visibility: visible;
+opacity: 1;
+}
+
+ul.palhv li{
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.palhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.palhv li .pal{
+    position: absolute;
+    bottom: 25px;
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.palhv li:hover .pal{
+visibility: visible;
+opacity: 1;
+}
+ul.panhv li{
+    position: absolute;
+    top: 55%;
+    left: 89%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.panhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.panhv li .pan{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.panhv li:hover .pan{
+visibility: visible;
+opacity: 1;
+}
+ul.ulhv li{
+    position: absolute;
+    top: 69.5%;
+    left: 74%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.ulhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.ulhv li .ula{
+    position: absolute;
+    bottom: 25px;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.ulhv li:hover .ula{
+visibility: visible;
+opacity: 1;
+}
+ul.mauhv li{
+    position: absolute;
+    top: 63%;
+    left: 83%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.mauhv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.mauhv li .mau{
+    position: absolute;
+    bottom: 25px;
+    width: 220px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.mauhv li:hover .mau{
+visibility: visible;
+opacity: 1;
+}
+ul.buchv li{
+    position: absolute;
+    top: 53%;
+    left: 86%;
+    list-style: none;
+    width: 18px;
+    height: 18px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.buchv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.buchv li .buc{
+    position: absolute;
+    bottom: 25px;
+    width: 175px;
+    height: 220px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.buchv li:hover .buc{
+visibility: visible;
+opacity: 1;
+}
+ul.loochv li{
+    position: absolute;
+    top: 29%;
+    left: 85%;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: #777;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+ul.loochv li:hover{
+    background: #86ff3b;
+    box-shadow: 0 0 0 4px #333,
+                0 0 0 6px #86ff3b;
+}
+
+ ul.loochv li .looc{
+    position: absolute;
+    top: 20px;
+    width: 170px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.4s;
+    z-index: 10;
+} 
+
+ul.loochv li:hover .looc{
+visibility: visible;
+opacity: 1;
+}
+
+.schedcon {
+
+    animation: transitionIn 0.75s;
+}
